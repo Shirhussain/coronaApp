@@ -31,12 +31,4 @@ def index(request):
 
     }
 
-    # context = {
-    #     'all': s['cases']['total'],
-    #     'recovered': s['cases']['recovered'],
-    #     'deaths': s['deaths']['total'],
-    #     'new': s['cases']['new'],
-    #     'serioz': s['cases']['critical'],
-    # }
-
     return render(request, 'index.html', context)
